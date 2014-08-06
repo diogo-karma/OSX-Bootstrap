@@ -1,6 +1,7 @@
 #Mac OS X
 
 [Mensch coding font](http://robey.lag.net/2010/06/21/mensch-font.html)
+[Secrets PrefPane](http://secrets.blacktree.com/)
 
 Apps
 ----
