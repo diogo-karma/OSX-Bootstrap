@@ -30,7 +30,7 @@ curl -L http://install.ohmyz.sh | sh
 Update .zshrc
 -------------
 ```bash
-subl ~/.zshrc
+atom ~/.zshrc
 ```
 
 
@@ -93,6 +93,7 @@ ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 ```
 
 ```bash
+brew update
 brew install git ack wget curl redis mongodb node
 
 ```
