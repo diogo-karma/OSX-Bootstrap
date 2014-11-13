@@ -125,9 +125,10 @@ Install nginx
 ```bash
 brew install nginx
 ```
-Configure your ```/usr/local/etc/nginx/nginx.conf``` (similar to):
 
-Start nginx:
+Setup auto start:
 ```bash
-sudo nginx
+sudo cp -v /usr/local/opt/nginx/*.plist /Library/LaunchDaemons/
+sudo chown root:wheel /Library/LaunchDaemons/homebrew.mxcl.nginx.plist
+sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.nginx.plist
 ```
