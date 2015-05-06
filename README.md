@@ -94,8 +94,8 @@ ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 
 ```bash
 brew update
-brew install git ack wget curl redis mongodb node
-
+brew tap jingweno/ccat
+brew install git ack wget curl redis mongodb node ccat
 ```
 
 #Git
